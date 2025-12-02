@@ -48,7 +48,7 @@ export default function MeetTheTeam() {
                 {team.map((member, i) => (
                     <div
                         key={i}
-                        className="grid grid-cols-1 md:grid-cols-2 "
+                        className=""
                     >
                         {/* LEFT — IMAGE */}
                         <img
