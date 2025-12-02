@@ -48,7 +48,7 @@ export default function MeetTheTeam() {
                 {team.map((member, i) => (
                     <div
                         key={i}
-                        className=""
+                        className="flex flex-row gap-7"
                     >
                         {/* LEFT — IMAGE */}
                         <img
