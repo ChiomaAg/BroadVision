@@ -6,7 +6,7 @@ export default function CTA() {
       <div className="max-w-3xl mx-auto text-center px-6">
 
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-          Visit Us or Give Us a Call
+          Visit Us or Give Us a Call💙
         </h2>
 
         <p className="mt-4 text-lg text-gray-600 leading-relaxed">
@@ -30,7 +30,7 @@ export default function CTA() {
             </a>
           </p>
 
-          {/* EMAIL (optional but professional) */}
+          {/* EMAIL  */}
           <p>
             <strong className="text-gray-900">Email:</strong>  
             <a href="mailto:broadvisioneyeclinic@gmail.com" className="text-[#1434A4] hover:underline">

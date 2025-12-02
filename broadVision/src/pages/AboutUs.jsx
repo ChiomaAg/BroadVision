@@ -1,6 +1,7 @@
 import Gallery from "../components/Gallery";
 import MeetTheTeam from "../components/MeetTheTeam";
 import CTA from "../components/CTA";
+import Footer from "../components/Footer"
 
 export default function AboutUs() {
     return (
@@ -8,6 +9,7 @@ export default function AboutUs() {
             <Gallery />
             <MeetTheTeam />
             <CTA />
+            <Footer />
         </div>
     )
 }
