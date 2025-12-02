@@ -1,7 +1,11 @@
-import Gallery from "../components/Gallery"
+import Gallery from "../components/Gallery";
+import MeetTheTeam from "../components/MeetTheTeam";
 
 export default function AboutUs() {
     return (
-        <Gallery />
+        <div>
+            <Gallery />
+            <MeetTheTeam />
+        </div>
     )
 }
