@@ -44,17 +44,17 @@ export default function MeetTheTeam() {
                 </p>
             </div>
 
-            <div className="space-y-14 max-w-7xl mx-auto">
+            <div className="space-y-10 md:space-y-12 max-w-6xl mx-auto">
                 {team.map((member, i) => (
                     <div
                         key={i}
-                        className="grid grid-cols-1 md:grid-cols-2 gap-2 items-center"
+                        className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 items-start"
                     >
                         {/* LEFT — IMAGE */}
                         <img
                             src={member.image}
                             alt={member.name}
-                            className="w-48 h-60 rounded-2xl object-cover shadow-md mx-auto md:mx-0"
+                            className="w-40 h-40 md:w-48 md:h-48 rounded-xl object-cover shadow-md mx-auto md:mx-0"
                         />
 
                         {/* RIGHT — TEXT */}
@@ -74,6 +74,7 @@ export default function MeetTheTeam() {
                     </div>
                 ))}
             </div>
+
 
         </section>
     );
