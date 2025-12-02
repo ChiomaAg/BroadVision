@@ -48,7 +48,7 @@ export default function MeetTheTeam() {
                 {team.map((member, i) => (
                     <div
                         key={i}
-                        className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 items-start"
+                        className="grid grid-cols-1 md:grid-cols-2 "
                     >
                         {/* LEFT — IMAGE */}
                         <img
@@ -63,11 +63,6 @@ export default function MeetTheTeam() {
 
                             <p className="text-[#1434A4] font-medium mt-1">{member.role}</p>
 
-                            {member.qualifications && (
-                                <p className="text-gray-700 font-semibold mt-1">
-                                    {member.qualifications}
-                                </p>
-                            )}
 
                             <p className="mt-3 text-gray-600 leading-relaxed">{member.bio}</p>
                         </div>
