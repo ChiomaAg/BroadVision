@@ -48,13 +48,13 @@ export default function MeetTheTeam() {
                 {team.map((member, i) => (
                     <div
                         key={i}
-                        className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center"
+                        className="grid grid-cols-1 md:grid-cols-2 gap-2 items-center"
                     >
                         {/* LEFT — IMAGE */}
                         <img
                             src={member.image}
                             alt={member.name}
-                            className="w-48 h-48 rounded-2xl object-cover shadow-md mx-auto md:mx-0"
+                            className="w-48 h-60 rounded-2xl object-cover shadow-md mx-auto md:mx-0"
                         />
 
                         {/* RIGHT — TEXT */}
