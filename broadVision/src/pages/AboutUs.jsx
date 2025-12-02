@@ -1,7 +1,7 @@
-export default function AboutUs(){
-    return(
-        <div className="text-blue-800">
-            About page
-        </div>
+import Gallery from "../components/Gallery"
+
+export default function AboutUs() {
+    return (
+        <Gallery />
     )
 }

@@ -23,7 +23,7 @@ export default function Hero() {
             {/* HERO CONTENT */}
             <div className="mx-auto max-w-2xl text-center">
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                    Comprehensive Eye Care for a Brighter Futureeeeeee
+                    Comprehensive Eye Care for a Brighter Future
                 </h1>
 
                 <p className="mt-6 text-lg leading-8 text-gray-600">
