@@ -44,7 +44,7 @@ export default function MeetTheTeam() {
                 </p>
             </div>
 
-            <div className="space-y-10 md:space-y-12 max-w-6xl mx-auto">
+            <div className="space-y-10 md:space-y-12 max-w-6xl mx-auto ">
                 {team.map((member, i) => (
                     <div
                         key={i}
