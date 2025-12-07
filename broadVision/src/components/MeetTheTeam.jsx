@@ -28,7 +28,7 @@ export default function MeetTheTeam() {
             name: "Miss Vivian Solomon",
             role: "Customer Service II",
             image: doc4,
-            bio: "Vivian brings cheer, warmth, and genuine care to every interaction. Her positive energy brightens the clinic and helps patients feel comfortable throughout their visit. Whether guiding you through registration or answering your questions, she is committed to making your experience pleasant and memorable.",
+            bio: "Vivian brings cheer warmth, and genuine care to every interaction. Her positive energy brightens the clinic and helps patients feel comfortable throughout their visit. Whether guiding you through registration or answering your questions, she is committed to making your experience pleasant and memorable.",
         },
     ];
 
