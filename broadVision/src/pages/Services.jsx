@@ -97,6 +97,15 @@ export default function Services() {
                     ))}
                 </div>
 
+                {/* --- PACKAGES SECTION --- */}
+                <h2 className="text-3xl font-bold text-center text-gray-900 mb-3">
+                    Packages
+                </h2>
+                <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+                    Enjoy special offers created to make quality eyecare more accessible for you and your family.
+                </p>
+
+
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
                     {packages.map((pkg, i) => (
                         <div
@@ -112,7 +121,7 @@ export default function Services() {
                         </div>
                     ))}
                 </div>
-                
+
             </div>
         </div>
     );
