@@ -1,7 +1,13 @@
+import HMO from "../components/HMO"
+import CTA from "../components/CTA"
+import Footer from "../components/Footer"
+
 export default function PartnerHMOs() {
     return (
-        <div className="text-blue-800">
-            Partner HMOs
+        <div>
+            <HMO />
+            <CTA />
+            <Footer />
         </div>
     )
 }
