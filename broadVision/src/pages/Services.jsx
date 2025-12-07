@@ -66,7 +66,7 @@ export default function Services() {
     ];
 
     return (
-        <div className="bg-white py-20 px-6 lg:px-12">
+        <div className="bg-white py-15 px-6 lg:px-12">
             <div className="max-w-6xl mx-auto">
 
                 {/* PAGE HEADER */}
@@ -98,7 +98,7 @@ export default function Services() {
                 </div>
 
                 {/* --- PACKAGES SECTION --- */}
-                <h2 className="text-4xl font-bold text-center text-gray-900 mb-3 mt-4">
+                <h2 className="text-4xl font-bold text-center text-gray-900 mb-3 mt-6">
                     Packages
                 </h2>
                 <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
@@ -121,6 +121,9 @@ export default function Services() {
                         </div>
                     ))}
                 </div>
+
+                <CTA />
+                <Footer />
 
             </div>
         </div>
