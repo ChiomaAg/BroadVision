@@ -17,8 +17,7 @@ export default function NavBar() {
 
     return (
         <div className="p-6">
-            <nav className="mb-4 font-normal sticky top-0 z-50 bg-white/90 backdrop-blur-md">
-
+            <nav className="mb-4 font-normal px-1 sticky top-0 z-50 bg-white shadow-md">
                 {/*NAvBar*/}
                 <div className="flex flex-row justify-between items-center">
 
@@ -106,7 +105,7 @@ export default function NavBar() {
                     <NavLink to="/Services">Services</NavLink>
                     <NavLink to="/PartnerHMOs">Partner HMOs</NavLink>
                     <NavLink to="/Blog">Blog</NavLink>
-
+                    
                 </div>
 
             )}
