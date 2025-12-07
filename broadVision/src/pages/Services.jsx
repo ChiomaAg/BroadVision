@@ -98,7 +98,7 @@ export default function Services() {
                 </div>
 
                 {/* --- PACKAGES SECTION --- */}
-                <h2 className="text-3xl font-bold text-center text-gray-900 mb-3">
+                <h2 className="text-4xl font-bold text-center text-gray-900 mb-3 mt-4">
                     Packages
                 </h2>
                 <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
