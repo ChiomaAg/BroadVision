@@ -63,8 +63,6 @@ export default function PartnerHMOs() {
         <p className="mt-6 text-gray-700 leading-relaxed">
           Claiming in-store and online is an easy process. <br />
           In-store, we offer on-the-spot direct billing to most major insurance providers. <br />
-          For online purchases, we will send you an itemized receipt once your order is processed
-          with all the information your insurance provider needs for reimbursement.
         </p>
       </div>
 
