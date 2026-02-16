@@ -10,7 +10,6 @@ export default function AboutUs() {
             <Gallery />
             <MeetTheTeam />
             <CTA />
-            <Message />
             <Footer />
         </div>
     )
