@@ -7,6 +7,9 @@ import liberty from "../assets/Libertyhub.png"
 import mbo from "../assets/mbo.png"
 import tht from "../assets/tht.svg"
 import leadway from "../assets/leadway.png"
+import oceanic from "../assets/oceanic.png"
+import hadiel from "../assets/hadiel.webp"
+import crown from "../assets/crown.jpg"
 
 const hmos = [
   {
@@ -57,6 +60,24 @@ const hmos = [
     website: "https://getreliancehealth.com/nigeria/",
     blurb: "Get the highest quality of healthcare services for your team and their families."
   },
+  {
+    name: "Oceanic Health",
+    logo: oceanic,
+    website: "https://oceanichealth.com/",
+    blurb: "Healthcare insurance provider duly accredited by the NHIA, offering optimum services in the healthcare industry."
+  },
+  {
+    name: "Hadiel Health",
+    logo: hadiel,
+    website: "https://hadiel.com.ng/",
+    blurb: "Solving out of pocket expenses via innovative financing models."
+  },
+  {
+    name: "Crown Jewel",
+    logo: crown,
+    website: "https://crownjewelhmo.com/",
+    blurb: "Healthcare solutions for a vibrant and energetic generation"
+  },
 
 ];
 
@@ -86,7 +107,7 @@ export default function PartnerHMOs() {
             />
 
             {/* NAME */}
-            <h3 className="text-xl font-semibold text-center mt-4">
+            <h3 className=" text-gray-600 text-xl font-semibold text-center mt-4">
               {hmo.name}
             </h3>
 
