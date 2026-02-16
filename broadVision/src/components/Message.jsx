@@ -4,7 +4,7 @@ export default function WhatsAppMessageBox() {
     const [name, setName] = useState("");
     const [message, setMessage] = useState("");
 
-    const phone = "17806678087"; // replace with real number (no +, no spaces)
+    const phone = "23407055570730"; 
 
     const handleSend = () => {
         if (!name || !message) return;
