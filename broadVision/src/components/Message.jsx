@@ -16,7 +16,7 @@ export default function WhatsAppMessageBox() {
   };
 
   return (
-    <div style={{ maxWidth: "500px" }}>
+    <div style={{ maxWidth: "500px" }} className="text-black">
       <h3>Send Us a Message</h3>
 
       <input
