@@ -4,7 +4,7 @@ import AboutClinic from "../components/AboutClinic"
 import Testimonials from "../components/Testimonials"
 import LocationInfo from "../components/LocationInfo"
 import Footer from "../components/Footer"
-import Message from "../components/Message"
+import CTA from "../components/CTA"
 
 export default function Home() {
     return (
@@ -14,8 +14,8 @@ export default function Home() {
             <HomeServices />
             <AboutClinic />
             <Testimonials />
-            <LocationInfo />
-            <Message />
+            <CTA />
+            <Footer />
         </div>
     )
 }
