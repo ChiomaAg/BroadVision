@@ -17,7 +17,7 @@ export default function WhatsAppMessageBox() {
 
     return (
         <div style={{ maxWidth: "500px" }} className="text-black">
-            <strong className="text-xl text-black-900 mb-(10px)">Send Us a Message 💙</strong>
+            <strong className=" block text-xl text-black-900 mb-4">Send Us a Message 💙</strong>
 
             <input
                 className="w-full border border-gray-300 rounded-md px-3 py-2 bg-white"
@@ -25,7 +25,7 @@ export default function WhatsAppMessageBox() {
                 placeholder="Your Name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
+                
             />
 
             <textarea
@@ -34,7 +34,7 @@ export default function WhatsAppMessageBox() {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 rows="4"
-                style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
+            
             />
 
             <button
