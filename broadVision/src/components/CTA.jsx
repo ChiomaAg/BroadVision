@@ -1,5 +1,5 @@
 
-import Message from "Message.jsx"
+import Message from "./Message"
 
 export default function CTA() {
   return (
