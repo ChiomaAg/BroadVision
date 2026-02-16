@@ -69,15 +69,7 @@ export default function NavBar() {
                             Partner HMOs
                         </NavLink>
 
-                        <NavLink
-                            className={({ isActive }) =>
-                                `${isActive ? active : inactive}`
-                            }
-                            to="/Blog"
-                        >
-                            Blog
-                        </NavLink>
-
+                       
                     </div>
 
                     {/*Contact Us*/}
@@ -104,7 +96,7 @@ export default function NavBar() {
                     <NavLink to="/AboutUs">About Us</NavLink>
                     <NavLink to="/Services">Services</NavLink>
                     <NavLink to="/PartnerHMOs">Partner HMOs</NavLink>
-                    <NavLink to="/Blog">Blog</NavLink>
+                  
                     
                 </div>
 

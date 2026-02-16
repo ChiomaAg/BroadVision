@@ -3,7 +3,7 @@ import Message from "./Message"
 
 export default function CTA() {
   return (
-    <section className="bg-[#f5f8ff] py-20 mt-16">
+    <section id="contact" className="bg-[#f5f8ff] py-20 mt-16">
       <div className="max-w-3xl mx-auto text-center px-6">
 
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">

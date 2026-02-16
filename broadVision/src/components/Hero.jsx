@@ -33,7 +33,7 @@ export default function Hero() {
 
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                     <a
-                        href="#book"
+                        href="#contact"
                         className="rounded-md bg-[#1434A4] px-5 py-3 text-sm font-semibold text-white shadow 
                        hover:bg-[#0f2a84] focus-visible:outline-2 
                        focus-visible:outline-offset-2 focus-visible:outline-[#1434A4]"
