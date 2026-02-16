@@ -1,11 +1,12 @@
 
 import anchor from "../assets/anchor.png"
-import axa from "../assets/axa-logo.png"
+import reliance from "../assets/reliance.svg"
 import clearline from "../assets/Clearline.png"
-import ives from "../assets/ives.png"
+import ihms from "../assets/ihms.png"
 import liberty from "../assets/Libertyhub.png"
-import medexia from "../assets/medexia.png"
+import mbo from "../assets/mbo.png"
 import tht from "../assets/tht.svg"
+import leadway from "../assets/leadway.png"
 
 const hmos = [
   {
@@ -15,10 +16,10 @@ const hmos = [
     blurb: "Trusted healthcare coverage for families and corporate clients."
   },
   {
-    name: "Medexia",
-    logo: medexia,
-    website: "https://medexia.com/",
-    blurb: "Affordable and accessible managed healthcare services."
+    name: "Leadway",
+    logo: leadway,
+    website: "https://www.leadway.com/",
+    blurb: "Get cover for your life against the risk of death, injury, illness or against accident expenses."
   },
   {
     name: "Anchor HMO",
@@ -39,18 +40,24 @@ const hmos = [
     blurb: "Comprehensive health insurance with flexible plans."
   },
   {
-    name: "AXA Mansard",
-    logo: axa,
-    website: "https://www.axamansard.com/",
-    blurb: "Nigeria’s most recognized health insurance provider."
+    name: "MB&O",
+    logo: mbo,
+    website: "https://www.mbandohmo.com/",
+    blurb: "Quality and affordable health insurance that you can trust"
   },
   {
-    name: "Ives Medicals",
-    logo: ives,
-    website: "https://ivesmedicare.com/",
+    name: "IHMS",
+    logo: ihms,
+    website: "https://ihmsnigeria.com/",
     blurb: "Dedicated to providing seamless healthcare access."
   },
-  
+  {
+    name: "Reliance HMO",
+    logo: reliance,
+    website: "https://getreliancehealth.com/nigeria/",
+    blurb: "Get the highest quality of healthcare services for your team and their families."
+  },
+
 ];
 
 export default function PartnerHMOs() {
@@ -70,7 +77,7 @@ export default function PartnerHMOs() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {hmos.map((hmo, index) => (
           <div key={index} className="border rounded-xl p-6 shadow-sm hover:shadow-md transition bg-white">
-            
+
             {/* LOGO */}
             <img
               src={hmo.logo}
