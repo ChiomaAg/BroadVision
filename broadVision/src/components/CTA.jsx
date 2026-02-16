@@ -7,7 +7,7 @@ export default function CTA() {
       <div className="max-w-3xl mx-auto text-center px-6">
 
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-          Visit Us or Give Us a Call💙
+          Visit Us or Give Us a Call
         </h2>
 
 
@@ -35,9 +35,9 @@ export default function CTA() {
               <a href="tel: 08130887137" className="text-[#1434A4] hover:underline">
                 08130887137
               </a>
-              <p>    </p>
+              
               <a href="tel: 07055570730" className="text-[#1434A4] hover:underline">
-                07055570730
+                   07055570730
               </a>
             </p>
 
@@ -53,7 +53,7 @@ export default function CTA() {
             <div className="mt-6">
               <strong className="text-gray-900 block mb-2">Hours:</strong>
               <p>Mon–Fri: 9am–6pm</p>
-              <p>Saturday: 10am–4pm</p>
+              <p>Saturday and Public Holidays: 10am–4pm</p>
               <p>Sunday: Closed</p>
             </div>
 
