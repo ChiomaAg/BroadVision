@@ -1,4 +1,5 @@
 
+import Message from "Message.jsx"
 
 export default function CTA() {
   return (
@@ -9,8 +10,10 @@ export default function CTA() {
           Visit Us or Give Us a Call💙
         </h2>
 
+        <Message />
+
         <p className="mt-4 text-lg text-gray-600 leading-relaxed">
-          We are committed to providing quality, compassionate eye care.  
+          We are committed to providing quality, compassionate eye care.
           Reach us using the contact details below.
         </p>
 
@@ -18,13 +21,13 @@ export default function CTA() {
 
           {/* ADDRESS */}
           <p>
-            <strong className="text-gray-900">Address:</strong>  
+            <strong className="text-gray-900">Address:</strong>
             55 Diya Street, Ifako Gbagada, Lagos
           </p>
 
           {/* PHONE */}
           <p>
-            <strong className="text-gray-900">Phone:</strong>  
+            <strong className="text-gray-900">Phone:</strong>
             <a href="tel:7806678087" className="text-[#1434A4] hover:underline">
               780-667-8087
             </a>
@@ -32,7 +35,7 @@ export default function CTA() {
 
           {/* EMAIL  */}
           <p>
-            <strong className="text-gray-900">Email:</strong>  
+            <strong className="text-gray-900">Email:</strong>
             <a href="mailto:broadvisioneyeclinic@gmail.com" className="text-[#1434A4] hover:underline">
               broadvisioneyeclinic@gmail.com
             </a>
