@@ -1,9 +1,9 @@
 
 export default function Testimonials() {
   const feedback = [
-    { name: "Sarah A.", text: "Professional care. My eye exam was fast and thorough." },
-    { name: "David M.", text: "The staff are friendly and knowledgeable. Highly recommended!" },
-    { name: "Rebecca I.", text: "Clean clinic, modern equipment, and excellent doctors." },
+    { name: "Jube Ojomo", text: "Excellent service.It is quite affordable. I like the professionalism displayed by the staff. I recommend this eye clinic for anyone who is want good service at affordable price" },
+    { name: "Johnson Bolaji", text: "Broad vision eye clinic has been wonderful in their service, excellent in the job of attending to eye issue and so I recommend them for everyone that needs good services." },
+    { name: "Sachin Nikum", text: "I just wanted to send my heartfelt thanks for the amazing experience I had at your shop. From the moment I walked through the door, I felt welcomed and cared for. The staff were knowledgeable, helpful, and patient. I really appreciate the effort they put in to help me find exactly what I was looking for. I can't thank you enough for the exceptional service I received. I will definitely be back and will recommend your shop to my friends and family." },
   ];
 
   return (
