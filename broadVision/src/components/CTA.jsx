@@ -51,7 +51,7 @@ export default function CTA() {
 
             {/* HOURS */}
             <div className="mt-6">
-              <strong className="text-gray-900 block mb-2">Hours:</strong>
+              <strong className="text-gray-900 block mb-2">Work Hours:</strong>
               <p>Mon–Fri: 9am–6pm</p>
               <p>Saturday and Public Holidays: 10am–4pm</p>
               <p>Sunday: Closed</p>

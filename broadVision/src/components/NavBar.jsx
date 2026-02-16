@@ -75,7 +75,7 @@ export default function NavBar() {
                     {/*Contact Us*/}
                     <div className="text-black flex flex-row items-center gap-2">
                         <FaPhone color="#1434A4" />
-                        7806678087
+                        07055570730
                     </div>
 
                     <button
