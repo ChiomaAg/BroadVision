@@ -10,7 +10,9 @@ export default function CTA() {
           Visit Us or Give Us a Call💙
         </h2>
 
-        <Message />
+        <div className="mt-12">
+          <Message />
+        </div>
 
         <p className="mt-4 text-lg text-gray-600 leading-relaxed">
           We are committed to providing quality, compassionate eye care.
@@ -28,8 +30,11 @@ export default function CTA() {
           {/* PHONE */}
           <p>
             <strong className="text-gray-900">Phone:</strong>
-            <a href="tel:7806678087" className="text-[#1434A4] hover:underline">
-              780-667-8087
+            <a href="tel: 08130887137" className="text-[#1434A4] hover:underline">
+              08130887137
+            </a>
+            <a href="tel: 07055570730" className="text-[#1434A4] hover:underline">
+              07055570730
             </a>
           </p>
 
