@@ -33,7 +33,7 @@ export default function CTA() {
             <p>
               <strong className="text-gray-900">Phone:</strong>
               <a href="tel: 08130887137" className="text-[#1434A4] hover:underline">
-                08130887137
+                08130887137,
               </a>
               
               <a href="tel: 07055570730" className="text-[#1434A4] hover:underline">
