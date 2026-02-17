@@ -51,14 +51,16 @@ export default function MeetTheTeam() {
                         className="flex flex-col md:flex-row gap-7 mx-auto"
                     >
                         {/* LEFT — IMAGE */}
-                        <img
-                            src={member.image}
-                            alt={member.name}
-                            className="w-40 h-40 md:w-48 md:h-48 rounded-xl object-cover shadow-md mx-auto md:mx-0"
-                        />
+                        <div className="w-40 h-40 md:w-48 md:h-48 flex-shrink-0 overflow-hidden rounded-xl shadow-md mx-auto md:mx-0">
+                            <img
+                                src={member.image}
+                                alt={member.name}
+                                className="w-full h-full object-cover"
+                            />
+                        </div>
 
                         {/* RIGHT — TEXT */}
-                        <div>
+                        <div className="flex-1">
                             <h3 className="text-2xl font-semibold text-gray-900">{member.name}</h3>
 
                             <p className="text-[#1434A4] font-medium mt-1">{member.role}</p>
