@@ -38,7 +38,7 @@ export default function Hero() {
                        hover:bg-[#0f2a84] focus-visible:outline-2 
                        focus-visible:outline-offset-2 focus-visible:outline-[#1434A4]"
                     >
-                        Book an Appointment
+                        Send a Message
                     </a>
 
                     <NavLink to="/Services" className="text-sm font-semibold text-gray-900">

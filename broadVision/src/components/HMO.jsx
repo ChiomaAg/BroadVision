@@ -10,6 +10,8 @@ import leadway from "../assets/leadway.png"
 import oceanic from "../assets/oceanic.png"
 import hadiel from "../assets/hadiel.webp"
 import crown from "../assets/crown.jpg"
+import quest from "../assets/quest.png"
+import novo from "../assets/novo.webp"
 
 const hmos = [
   {
@@ -76,7 +78,19 @@ const hmos = [
     name: "Crown Jewel",
     logo: crown,
     website: "https://crownjewelhmo.com/",
-    blurb: "Healthcare solutions for a vibrant and energetic generation"
+    blurb: "Healthcare solutions for a vibrant and energetic generation."
+  },
+  {
+    name: "Quest Medicare",
+    logo: quest,
+    website: "https://questhmo.com/",
+    blurb: "All your protection under one roof."
+  },
+  {
+    name: "Novo Health Africa",
+    logo: novo,
+    website: "https://novohealthafrica.org/",
+    blurb: "We bring quality and affordable healthcare closer to you"
   },
 
 ];

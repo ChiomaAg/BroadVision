@@ -1,7 +1,7 @@
-import doc1 from '../assets/doctor.jpeg';
-import doc2 from '../assets/doctor.jpeg';
-import doc3 from '../assets/doctor.jpeg';
-import doc4 from '../assets/doctor.jpeg';
+import dragosi from '../assets/dragosi.jpeg';
+import dredith from '../assets/dredith.jpeg';
+import fortune from '../assets/fortune.jpeg';
+import chisom from '../assets/chisom.jpeg';
 
 export default function MeetTheTeam() {
 
@@ -9,26 +9,26 @@ export default function MeetTheTeam() {
         {
             name: "Dr. Agosi-Okoro Ifeoma, OD (UNIBEN), MSc Public Health (UNILAG)",
             role: "Medical Director / Optometrist",
-            image: doc1, // replace with actual import
+            image: dragosi, // replace with actual import
             bio: "Dr. Agosi is an accomplished Optometrist with over twenty years of hands-on clinical experience across both public and private healthcare settings. Known for her keen diagnostic insight and deep commitment to patient wellbeing, she brings a blend of expertise, compassion, and leadership to the clinic. She is passionate about improving vision outcomes and is dedicated to making quality eyecare accessible to every patient who walks through our doors.",
         },
         {
             name: "Dr. Davidson Edith (OD)",
             role: "Practice Manager",
-            image: doc2,
+            image: dredith,
             bio: "With more than a decade of experience in modern eyecare, Dr. Davidson ensures the clinic runs smoothly while delivering exceptional patient support. She is skilled in using advanced computerized diagnostic tools to assess visual conditions and guide patients toward the best solutions. Her organized approach, clinical knowledge, and warm personality make her an invaluable part of the BroadVision team.",
         },
         {
             name: "Miss Fortune Ogbonna",
-            role: "Customer Service & HMO Officer",
-            image: doc3,
+            role: "Customer Service",
+            image: fortune,
             bio: "Fortune is often the first friendly face our patients meet, and she takes that responsibility to heart. Her calm, welcoming presence helps patients feel relaxed from the moment they arrive. Beyond her excellent communication skills, she assists with HMO coordination and ensures every visit is seamless, reassuring, and stress-free.",
         },
         {
-            name: "Miss Vivian Solomon",
-            role: "Customer Service II",
-            image: doc4,
-            bio: "Vivian brings cheer warmth, and genuine care to every interaction. Her positive energy brightens the clinic and helps patients feel comfortable throughout their visit. Whether guiding you through registration or answering your questions, she is committed to making your experience pleasant and memorable.",
+            name: "Miss Chisom Agosi",
+            role: "Marketing Officer",
+            image: chisom,
+            bio: "Chisom is an Economics graduate with first hand experience in finance and marketing. She is in charge of coordinating all our HMO partnership and facilitating  new partnerships with selected HMOs.",
         },
     ];
 
