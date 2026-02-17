@@ -1,7 +1,7 @@
-import dragosi from '../assets/dragosi.jpeg';
-import dredith from '../assets/dredith.jpeg';
-import fortune from '../assets/fortune.jpeg';
-import chisom from '../assets/chisom.jpeg';
+import dragosi from '../assets/dragosi.jpg';
+import dredith from '../assets/dredithjpg.jpg';
+import fortune from '../assets/fortune.jpg';
+import chisom from '../assets/chisom.jpg';
 
 export default function MeetTheTeam() {
 
