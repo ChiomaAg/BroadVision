@@ -7,7 +7,7 @@ export default function Hero() {
            
 
             {/* HERO CONTENT */}
-            <div className="mr-auto  px-25 text-left">
+            <div className="mr-auto px-4 sm:px-6 lg:px-16 text-left">
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                     Eye Care with Passion
                 </h1>
