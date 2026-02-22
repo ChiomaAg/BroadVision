@@ -5,14 +5,14 @@ import pic3 from "../assets/pic3.JPG";
 import pic4 from "../assets/pic4.JPG";
 import pic5 from "../assets/pic5.JPG";
 import pic6 from "../assets/pic6.JPG";
-import pic7 from "../assets/pic7.JPG";
+
 import pic8 from "../assets/pic8.JPG";
 import NavBar from "./NavBar";
 import Message from "./Message"
 
 export default function Gallery() {
   const images = [
-    pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8
+    pic1, pic2, pic3, pic4, pic5, pic6, pic8
   ];
 
   const [index, setIndex] = useState(0);
