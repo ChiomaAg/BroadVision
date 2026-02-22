@@ -1,4 +1,5 @@
 import eyes from "../assets/child_eyes.jpg";
+import homepic from '../assets/homepic.JPG'
 import { NavLink } from "react-router-dom";
 
 export default function AboutClinic() {
@@ -9,7 +10,7 @@ export default function AboutClinic() {
           {/* IMAGE CARD */}
           <div className="overflow-hidden rounded-3xl shadow-sm border border-black/10 lg:w-[70%]">
             <img
-              src={eyes}
+              src={homepic}
               alt="Clinic"
               className="h-[320px] w-full object-cover sm:h-[580px]"
             />

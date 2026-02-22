@@ -27,8 +27,8 @@ export default function Hero() {
                         Send a Message
                     </a>
 
-                    <NavLink to="/Services" className="text-md font-semibold text-gray-900">
-                        View Services →
+                    <NavLink to="/Packages" className="text-md font-semibold text-gray-900">
+                        View Packages →
                     </NavLink>
                 </div>
             </div>

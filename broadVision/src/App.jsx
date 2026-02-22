@@ -5,8 +5,9 @@ import AboutUs from './pages/AboutUs';
 import Home from './pages/Home';
 import Blog from "./pages/Blog";
 import PartnerHMOs from "./pages/PartnerHMOs";
-import Services from './pages/Services';
+import Packages from './pages/Packages';
 import HomeLayout from "./pages/HomeLayout";
+import Gallery from "./components/Gallery";
 
 export default function App() {
 
@@ -23,7 +24,8 @@ export default function App() {
           <Route path="AboutUs" element={< AboutUs />} />
           <Route path="Blog" element={< Blog />} />
           <Route path="PartnerHMOs" element={< PartnerHMOs />} />
-          <Route path="Services" element={< Services />} />
+          <Route path="Packages" element={< Packages />} />
+           <Route path="Gallery" element={< Gallery />} />
         </Route>
 
       </Routes>

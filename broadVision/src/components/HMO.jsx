@@ -101,17 +101,13 @@ export default function PartnerHMOs() {
 
       {/* TOP SECTION */}
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <h1 className="text-4xl font-bold text-[#1434A4]">Our Partner HMOs</h1>
-        <p className="mt-6 text-gray-700 leading-relaxed">
-          Claiming in-store and online is an easy process. <br />
-          In-store, we offer on-the-spot direct billing to most major insurance providers. <br />
-        </p>
+        
       </div>
 
       {/* HMO GRID */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {hmos.map((hmo, index) => (
-          <div key={index} className="border rounded-xl p-6 shadow-sm hover:shadow-md transition bg-white">
+          <div key={index} className="border rounded-xl p-6 shadow-sm hover:shadow-md transition border-black bg-white">
 
             {/* LOGO */}
             <img
@@ -126,21 +122,10 @@ export default function PartnerHMOs() {
             </h3>
 
             {/* BLURB */}
-            <p className="text-gray-600 text-center text-sm mt-2">
-              {hmo.blurb}
-            </p>
+           
 
             {/* LINK */}
-            <div className="text-center mt-4">
-              <a
-                href={hmo.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#1434A4] font-semibold hover:underline"
-              >
-                Learn More →
-              </a>
-            </div>
+            
           </div>
         ))}
       </div>

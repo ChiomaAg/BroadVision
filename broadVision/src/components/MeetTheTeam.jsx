@@ -37,11 +37,7 @@ export default function MeetTheTeam() {
     return (
         <section className="py-20 px-6 lg:px-16 bg-white">
             <div className="max-w-7xl mx-auto text-center mb-12">
-                <h2 className="text-3xl font-bold text-gray-900">Meet Our Team</h2>
-                <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
-                    Our dedicated professionals are committed to providing exceptional,
-                    compassionate, and patient-centered eye care.
-                </p>
+                
             </div>
 
             <div className="space-y-10 md:space-y-12 max-w-6xl mx-auto ">

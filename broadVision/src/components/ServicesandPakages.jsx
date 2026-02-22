@@ -73,50 +73,20 @@ export default function ServicesandPakages() {
             <div className="max-w-6xl mx-auto">
 
                 {/* PAGE HEADER */}
-                <h1 className="text-4xl font-bold text-center text-gray-900 mb-12">
-                    Our Services
-                </h1>
-
-                {/* GRID */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-                    {services.map((service, i) => (
-                        <div
-                            key={i}
-                            className="p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 bg-white"
-                        >
-                            {/* ICON */}
-                            <div className="text-5xl mb-4">{service.icon}</div>
-
-                            {/* TITLE */}
-                            <h3 className="text-xl font-semibold text-gray-900">
-                                {service.title}
-                            </h3>
-
-                            {/* DESCRIPTION */}
-                            <p className="mt-3 text-gray-600 leading-relaxed text-sm">
-                                {service.description}
-                            </p>
-                        </div>
-                    ))}
-                </div>
+                
 
                 {/* --- PACKAGES SECTION --- */}
-                <h2 className="text-4xl font-bold text-center text-gray-900 mb-3 mt-6">
-                    Packages
-                </h2>
-                <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-                    Enjoy special offers created to make quality eyecare more accessible for you and your family.
-                </p>
+               
 
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
                     {packages.map((pkg, i) => (
                         <div
                             key={i}
-                            className="p-8 rounded-2xl bg-white shadow border border-gray-100
-                       hover:shadow-lg transition-all duration-300"
+                            className="p-7 rounded-2xl bg-[#FFF8DC]  border border-black shadow-sm 
+                 transition duration-300 hover:-translate-y-1 hover:shadow-md space-y-4"
                         >
-                            <div className="text-5xl mb-4">{pkg.icon}</div>
+                            <div className="text-5xl mb-4 flex justify-center">{pkg.icon}</div>
                             <h3 className="text-xl font-semibold text-gray-900">{pkg.title}</h3>
                             <p className="mt-3 text-gray-600 text-sm leading-relaxed">
                                 {pkg.description}

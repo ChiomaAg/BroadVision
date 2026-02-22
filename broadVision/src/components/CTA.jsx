@@ -31,7 +31,7 @@ export default function Footer() {
             <ul className="mt-5 space-y-3 text-white/85">
               <li><NavLink className="hover:text-white" to="/Home">Home</NavLink></li>
               <li><NavLink className="hover:text-white" to="/AboutUs">About Us</NavLink></li>
-              <li><NavLink className="hover:text-white" to="/Services">Services</NavLink></li>
+              <li><NavLink className="hover:text-white" to="/Packages">Packages</NavLink></li>
               <li><NavLink className="hover:text-white" to="/PartnerHMOs">Partner HMOs</NavLink></li>
             </ul>
           </div>
