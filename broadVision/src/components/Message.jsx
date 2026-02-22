@@ -4,7 +4,7 @@ export default function WhatsAppMessageBox() {
     const [name, setName] = useState("");
     const [message, setMessage] = useState("");
 
-    const phone = "23407055570730"; 
+    const phone = "23407055570730";
 
     const handleSend = () => {
         if (!name || !message) return;
@@ -16,41 +16,44 @@ export default function WhatsAppMessageBox() {
     };
 
     return (
-        <div style={{ maxWidth: "500px" }} className="text-black">
-            <strong className=" block text-xl text-black-900 mb-4">Send Us a Message 💙</strong>
+        <div id="contact" className="bg-white py-24">
+            <div className="flex justify-center px-6">
+                <div className="bg-[#FFF8DC] rounded-2xl shadow-xl p-10 w-full max-w-lg text-black border border-black">
 
-            <input
-                className="w-full border border-gray-300 rounded-md px-3 py-2 mb-2 bg-white"
-                type="text"
-                placeholder="Your Name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                
-            />
+                    <h3 className="text-2xl font-semibold mb-6 text-center">
+                        Send Us a Message 💙
+                    </h3>
 
-            <textarea
-                placeholder="Your Message"
-                className="w-full border border-gray-300 rounded-md px-3 py-2 mb-2 bg-white"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-                rows="4"
-            
-            />
+                    <div className="space-y-4">
+                        <input
+                            type="text"
+                            placeholder="Your Name"
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
+                            className="w-full border border-black bg-white rounded-xl px-4 py-3 
+                       focus:outline-none focus:ring-2 focus:ring-[#1434A4]"
+                        />
 
-            <button
-                onClick={handleSend}
-                style={{
-                    backgroundColor: "#25D366",
-                    color: "white",
-                    padding: "12px 18px",
-                    borderRadius: "8px",
-                    border: "none",
-                    fontWeight: "600",
-                    cursor: "pointer"
-                }}
-            >
-                Send on WhatsApp
-            </button>
+                        <textarea
+                            placeholder="Your Message"
+                            value={message}
+                            onChange={(e) => setMessage(e.target.value)}
+                            rows="4"
+                            className="w-full border border-black bg-white rounded-xl px-4 py-3 
+                       focus:outline-none focus:ring-2 focus:ring-[#1434A4]"
+                        />
+
+                        <button
+                            onClick={handleSend}
+                            className="w-full bg-[#25D366] text-white py-3 rounded-xl 
+                       font-semibold hover:opacity-90 transition"
+                        >
+                            Send on WhatsApp
+                        </button>
+                    </div>
+
+                </div>
+            </div>
         </div>
     );
 }

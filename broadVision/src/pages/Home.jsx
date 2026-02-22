@@ -6,6 +6,7 @@ import LocationInfo from "../components/LocationInfo"
 import Footer from "../components/Footer"
 import CTA from "../components/CTA"
 import NavBar from "../components/NavBar"
+import Message from "../components/Message"
 
 export default function Home() {
     return (
@@ -19,8 +20,9 @@ export default function Home() {
             <HomeServices />
             <AboutClinic />
             <Testimonials />
+            <Message />
             <CTA />
-            <Footer />
+            
         </div>
     )
 }

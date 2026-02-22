@@ -18,9 +18,9 @@ export default function AboutClinic() {
           {/* OVERLAY CARD */}
           <div
             className="mt-8 lg:mt-0 lg:absolute lg:right-0 lg:top-1/2 lg:-translate-y-1/2
-                       w-full lg:w-[520px]
+                       w-full lg:w-[520px] border border-black
                        rounded-3xl bg-[#FFF8DC] text-white shadow-lg
-                       p-8 sm:p-10"
+                       p-8 sm:p-10"  
           >
             <p className="text-sm font-semibold tracking-widest text-[#1434A4] uppercase">
               About Broadvision
