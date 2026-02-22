@@ -16,7 +16,7 @@ export default function NavBar() {
     }
 
     return (
-        <div className="p-6">
+        <div className="p-6 ">
             <nav className="mb-4 font-normal px-1">
                 {/*NAvBar*/}
                 <div className="flex flex-row justify-between items-center">
@@ -32,7 +32,7 @@ export default function NavBar() {
                     </NavLink>
 
                     {/*Page Links*/}
-                    <div className="text-black hidden md:flex flex-row gap-6 text-lg overflow-hidden">
+                    <div className="text-black hidden md:flex flex-row gap-6 text-lg overflow-hidden font-black">
                         <NavLink
                             className={({ isActive }) =>
                                 `${isActive ? active : inactive}`
@@ -69,11 +69,11 @@ export default function NavBar() {
                             Partner HMOs
                         </NavLink>
 
-                       
+
                     </div>
 
                     {/*Contact Us*/}
-                    <div className="text-black flex flex-row items-center gap-2">
+                    <div className="text-black flex flex-row items-center font-bold gap-2">
                         <FaPhone color="#1434A4" />
                         07055570730
                     </div>
@@ -96,8 +96,8 @@ export default function NavBar() {
                     <NavLink to="/AboutUs">About Us</NavLink>
                     <NavLink to="/Services">Services</NavLink>
                     <NavLink to="/PartnerHMOs">Partner HMOs</NavLink>
-                  
-                    
+
+
                 </div>
 
             )}
