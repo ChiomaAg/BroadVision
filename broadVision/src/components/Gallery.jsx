@@ -36,8 +36,8 @@ export default function Gallery() {
 
   return (
     <div>
-      <NavBar />y-20 px-6 
-      <section className="lg:p-12  mx-auto bg-gradient-to-b from-white to-[#FFF8DC] overflow-hidden rounded-b-[80px] border-b border-black ">
+      <NavBar />
+      <section className="lg:p-12  mx-auto  ">
         <div className="max-w-7xl mx-auto">
 
           {/* LEFT: IMAGE GALLERY */}
