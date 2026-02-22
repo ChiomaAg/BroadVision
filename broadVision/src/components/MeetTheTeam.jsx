@@ -10,7 +10,7 @@ export default function MeetTheTeam() {
             name: "Dr. Agosi-Okoro Ifeoma, OD (UNIBEN), MSc Public Health (UNILAG)",
             role: "Medical Director / Optometrist",
             image: dragosi, // replace with actual import
-            bio: "Dr. Agosi is an accomplished Optometrist with over twenty years of hands-on clinical experience across both public and private healthcare settings. Known for her keen diagnostic insight and deep commitment to patient wellbeing, she brings a blend of expertise, compassion, and leadership to the clinic. She is passionate about improving vision outcomes and is dedicated to making quality eyecare accessible to every patient who walks through our doors.",
+            bio: "Dr. Agosi is an accomplished Optometrist with over  twenty years of hands-on clinical experience across both public and private healthcare settings. Known for her keen diagnostic insight and deep commitment to patient wellbeing, she brings a blend of expertise, compassion, and leadership to the clinic. She is passionate about improving vision outcomes and is dedicated to making quality eyecare accessible to every patient who walks through our doors.",
         },
         {
             name: "Dr. Davidson Edith (OD)",
