@@ -48,7 +48,7 @@ export default function HomeServices() {
                  transition duration-300 hover:-translate-y-1 hover:shadow-md space-y-4"
                             >
                                 <div className="text-[#1434A4] flex justify-center">
-                                    <Icon size={22} />
+                                    <Icon size={24} />
                                 </div>
 
                                 <h3 className="font-semibold text-lg text-gray-900">
