@@ -56,6 +56,13 @@ export default function Footer() {
               </li>
 
               <li className="flex gap-3">
+                <FaPhoneAlt className="mt-1 text-[#FDE68A]" />
+                <a className="hover:text-white" href="tel:+2348130887137">
+                  08130887137
+                </a>
+              </li>
+
+              <li className="flex gap-3">
                 <FaEnvelope className="mt-1 text-[#FDE68A]" />
                 <a className="hover:text-white" href="mailto:broadvisioneyecentre@gmail.com">
                   broadvisioneyecentre@gmail.com
@@ -87,7 +94,7 @@ export default function Footer() {
           </p>
 
           <p className="text-white/60 text-sm">
-            Designed with care • Built for clarity
+            Designed with love by Chioma Agosi :)
           </p>
         </div>
       </div>
