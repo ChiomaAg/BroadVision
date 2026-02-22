@@ -41,7 +41,7 @@ export default function Gallery() {
         <div className="max-w-7xl mx-auto">
 
           {/* LEFT: IMAGE GALLERY */}
-          <div className="relative w-[70%] h-[60%] mx-auto overflow-hidden rounded-2xl shadow-lg group">
+          <div className="relative w-[70%] mx-auto overflow-hidden rounded-2xl shadow-lg group">
 
             {/* Image */}
             <img
