@@ -35,9 +35,9 @@ export default function CTA() {
               <a href="tel: 08130887137" className="text-[#1434A4] hover:underline">
                 08130887137,
               </a>
-              
+
               <a href="tel: 07055570730" className="text-[#1434A4] hover:underline">
-                   07055570730
+                07055570730
               </a>
             </p>
 
@@ -45,7 +45,7 @@ export default function CTA() {
             <p>
               <strong className="text-gray-900">Email:</strong>
               <a href="mailto:broadvisioneyeclinic@gmail.com" className="text-[#1434A4] hover:underline">
-                broadvisioneyeclinic@gmail.com
+                broadvisioneyecentre@gmail.com
               </a>
             </p>
 

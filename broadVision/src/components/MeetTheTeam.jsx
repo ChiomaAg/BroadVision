@@ -1,5 +1,5 @@
 import dragosi from '../assets/dragosi.jpg';
-import dredith from '../assets/dredithjpg.jpg';
+import dredith from '../assets/dredithjpg.JPG';
 import fortune from '../assets/fortune.jpg';
 import chisom from '../assets/chisom.jpg';
 

@@ -1,13 +1,16 @@
 import { useState, useEffect } from "react";
-import Broad2 from '../assets/Broad2.jpg'
-import Broad4 from '../assets/Broad4.jpg'
-import Broad5 from '../assets/Broad5.jpg'
-
-
+import pic1 from "../assets/pic1.JPG";
+import pic2 from "../assets/pic2.JPG";
+import pic3 from "../assets/pic3.JPG";
+import pic4 from "../assets/pic4.JPG";
+import pic5 from "../assets/pic5.JPG";
+import pic6 from "../assets/pic6.JPG";
+import pic7 from "../assets/pic7.JPG";
+import pic8 from "../assets/pic8.JPG";
 
 export default function Gallery() {
   const images = [
-    Broad2,Broad4,Broad5
+    pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8
   ];
 
   const [index, setIndex] = useState(0);
