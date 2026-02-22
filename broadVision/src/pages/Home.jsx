@@ -11,7 +11,7 @@ export default function Home() {
     return (
 
         <div>
-            <div className="bg-gradient-to-b from-white to-[#FDE9A8] overflow-hidden rounded-b-[80px]">
+            <div className="bg-gradient-to-b from-white to-[#FFF8DC] overflow-hidden rounded-b-[80px] border-b border-black ">
                 <NavBar />
                 <Hero />
             </div>

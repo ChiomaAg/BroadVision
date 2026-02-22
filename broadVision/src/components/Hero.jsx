@@ -20,14 +20,14 @@ export default function Hero() {
                 <div className="mt-10 flex items-center gap-x-6">
                     <a
                         href="#contact"
-                        className="rounded-xl bg-[#1434A4] px-5 py-3 text-sm font-semibold text-white shadow 
+                        className="rounded-xl bg-[#1434A4] px-5 py-3 text-md font-semibold text-white shadow 
                        hover:bg-[#0f2a84] focus-visible:outline-2 
                        focus-visible:outline-offset-2 focus-visible:outline-[#1434A4]"
                     >
                         Send a Message
                     </a>
 
-                    <NavLink to="/Services" className="text-sm font-semibold text-gray-900">
+                    <NavLink to="/Services" className="text-md font-semibold text-gray-900">
                         View Services →
                     </NavLink>
                 </div>
