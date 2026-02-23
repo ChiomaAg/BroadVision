@@ -36,12 +36,16 @@ export default function Gallery() {
 
   return (
     <div>
-      <NavBar />
-      <section className="lg:p-12  mx-auto  ">
-        <div className="max-w-7xl mx-auto">
 
+      <section className="lg:p-12  mx-auto  ">
+        <div className="max-w-6xl mx-auto px-6 text-center py-4">
+          <h2 className="text-4xl font-black text-black">Gallery</h2>
+          <div className="w-16 h-1 bg-[#FDE68A] mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <div className="max-w-7xl mx-auto">
           {/* LEFT: IMAGE GALLERY */}
-          <div className="relative w-[70%] mx-auto overflow-hidden rounded-2xl shadow-lg group">
+          <div className="relative w-full mx-auto overflow-hidden aspect-[16/9] rounded-2xl shadow-lg group">
 
             {/* Image */}
             <img
@@ -89,7 +93,7 @@ export default function Gallery() {
 
         </div>
       </section>
-      <Message />
+      
     </div>
   );
 }

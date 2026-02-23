@@ -7,6 +7,7 @@ import Footer from "../components/Footer"
 import CTA from "../components/CTA"
 import NavBar from "../components/NavBar"
 import Message from "../components/Message"
+import Gallery from "../components/Gallery"
 
 export default function Home() {
     return (
@@ -18,7 +19,8 @@ export default function Home() {
             </div>
             
             <HomeServices />
-            <AboutClinic />
+            <Gallery />
+            
             <Testimonials />
             <Message />
             <CTA />

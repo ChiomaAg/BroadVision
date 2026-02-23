@@ -19,7 +19,7 @@ export default function Footer() {
               className="mt-6 inline-flex items-center gap-2 rounded-xl bg-[#FDE68A] px-4 py-3
                          font-semibold text-[#0B1F2A] hover:opacity-90 transition"
             >
-              Book an Appointment →
+              Message Us →
             </a>
           </div>
 

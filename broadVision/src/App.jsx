@@ -25,7 +25,7 @@ export default function App() {
           <Route path="Blog" element={< Blog />} />
           <Route path="PartnerHMOs" element={< PartnerHMOs />} />
           <Route path="Packages" element={< Packages />} />
-           <Route path="Gallery" element={< Gallery />} />
+
         </Route>
 
       </Routes>
