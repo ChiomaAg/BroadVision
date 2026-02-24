@@ -46,9 +46,9 @@ export default function NavBar() {
                             className={({ isActive }) =>
                                 `${isActive ? active : inactive}`
                             }
-                            to="/AboutUs"
+                            to="/MeetOurTeam"
                         >
-                            About Us
+                            Meet Our Team
                         </NavLink>
 
                         <NavLink
@@ -69,7 +69,14 @@ export default function NavBar() {
                             Partner HMOs
                         </NavLink>
 
-                       
+                       <NavLink
+                            className={({ isActive }) =>
+                                `${isActive ? active : inactive}`
+                            }
+                            to="/ContactUs"
+                        >
+                            Contact Us
+                        </NavLink>
 
 
                     </div>
@@ -95,10 +102,10 @@ export default function NavBar() {
             {isOpen && (
                 <div className="flex flex-col gap-3 p-4 bg-white shadow md:hidden text-black">
                     <NavLink to="/Home">Home</NavLink>
-                    <NavLink to="/AboutUs">About Us</NavLink>
+                    <NavLink to="/MeetOurTeam">Meet Our Team</NavLink>
                     <NavLink to="/Packages">Packages</NavLink>
                     <NavLink to="/PartnerHMOs">Partner HMOs</NavLink>
-                    
+                    <NavLink to="/ContactUs">Contact Us</NavLink>
 
                 </div>
 
