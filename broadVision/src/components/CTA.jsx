@@ -30,7 +30,7 @@ export default function Footer() {
             </h3>
             <ul className="mt-5 space-y-3 text-white/85">
               <li><NavLink className="hover:text-white" to="/Home">Home</NavLink></li>
-              <li><NavLink className="hover:text-white" to="/AboutUs">About Us</NavLink></li>
+              <li><NavLink className="hover:text-white" to="/MeetOurTeam">Meet Our Team</NavLink></li>
               <li><NavLink className="hover:text-white" to="/Packages">Packages</NavLink></li>
               <li><NavLink className="hover:text-white" to="/PartnerHMOs">Partner HMOs</NavLink></li>
             </ul>
@@ -51,14 +51,14 @@ export default function Footer() {
               <li className="flex gap-3">
                 <FaPhoneAlt className="mt-1 text-[#FDE68A]" />
                 <a className="hover:text-white" href="tel:+2347055570730">
-                  07055570730
+                  +2347055570730
                 </a>
               </li>
 
               <li className="flex gap-3">
                 <FaPhoneAlt className="mt-1 text-[#FDE68A]" />
                 <a className="hover:text-white" href="tel:+2348130887137">
-                  08130887137
+                  +2348130887137
                 </a>
               </li>
 

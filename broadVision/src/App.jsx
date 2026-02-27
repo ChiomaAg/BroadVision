@@ -9,12 +9,14 @@ import Packages from './pages/Packages';
 import HomeLayout from "./pages/HomeLayout";
 import Gallery from "./components/Gallery";
 import ContactUs from "./pages/ContactUs";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
 
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomeLayout />}>
           <Route index element={<Home />} />

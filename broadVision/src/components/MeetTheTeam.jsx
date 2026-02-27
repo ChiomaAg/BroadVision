@@ -22,7 +22,7 @@ export default function MeetTheTeam() {
             name: "Miss Fortune Ogbonna",
             role: "Customer Service",
             image: fortune,
-            bio: "Fortune is often the first friendly face our patients meet, and she takes that responsibility to heart. Her calm, welcoming presence helps patients feel relaxed from the moment they arrive. Beyond her excellent communication skills, she assists with HMO coordination and ensures every visit is seamless, reassuring, and stress-free.",
+            bio: "Fortune is a biochemistry graduate. She is often the first friendly face our patients meet, and she takes that responsibility to heart. Her calm, welcoming presence helps patients feel relaxed from the moment they arrive. Beyond her excellent communication skills, she assists with HMO coordination and ensures every visit is seamless, reassuring, and stress-free.",
         },
         {
             name: "Miss Chisom Agosi",
